@@ -1,0 +1,371 @@
+html, body {
+  height:100%;
+}
+
+.triangle{
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-right-width: 71.6vw;
+  border-left-width: 27.3vw;
+  border-bottom: 20.6vw solid rgba(11, 11, 11, 0.1);
+  position: absolute;
+  bottom:0;
+}
+
+.background{
+  display: block;
+  width: 100%;
+  height: 100vh;
+  min-height: 540px;
+  background: url(../img/bg-img.jpeg) no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+
+  .wai{
+    width: 100%;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    font-family: "Droid Serif", sans-serif;
+    font-size: 13.7906vw;
+    font-weight:bold;
+    opacity: 0.4;
+  }
+
+  .head{
+    width: 100%;
+    max-height: 100px;
+    text-align: left;
+    line-height: 100px;
+    color: whitesmoke;
+    font-family: "Roboto", monospace;
+    font-weight: bold;
+    font-size: 12pt;
+    text-transform: uppercase;
+    position: relative;
+    padding: 0 90px 0 90px;
+    transition: all 1.5s ease-out 0s;
+
+
+    .dd {
+      width: 60px;
+      height: 60px;
+      background: black;
+      position: fixed;
+      left: 25px;
+      top: 20px;
+      text-align: center;
+      line-height: 60px;
+      -webkit-box-shadow: inset 0px 0px 0px 1px rgba(192,160,98,1);
+      -moz-box-shadow: inset 0px 0px 0px 1px rgba(192,160,98,1);
+      box-shadow: inset 0px 0px 0px 1px rgba(192,160,98,1);
+      z-index: 3;
+
+      i{
+        display: inline-block;
+        transform: rotate(-180deg);
+        font-style: normal;
+      }
+
+    }
+
+    .work-tab{
+      position: absolute;
+      right: 100px;
+      top: 0;
+    }
+
+     .about-tab{
+        position: absolute;
+        right: 0;
+        top: 0;
+     }
+
+
+    .col-lg-12>div:hover {
+      color: #c0a062;
+      transition: all 1.5s ease-out 0s;
+      cursor: pointer;
+
+    }
+
+  }
+
+
+  .description{
+    width: 100%;
+    height  :70vh;
+    position: absolute;
+    top: 30vh;
+    z-index: 1;
+
+    .main-header{
+      z-index: 3;
+      position: relative;
+      left: 15%;
+      text-align: left;
+      height: 67vh;
+      width: 49vw;
+
+      h1{
+        font-family: "Droid Serif", sans-serif;
+        font-size: 4.351vw;
+        font-weight: bold;
+        width: inherit;
+        line-height: 1.2em;
+        color: #c0a062;
+        text-shadow: 0 0 70px rgba(0, 0, 0, 0.9);
+      }
+
+    }
+  }
+}
+.main {
+  width: 100%;
+  height: 54.472vw;
+  background: #101010;
+  position: relative;
+  z-index: 1;
+
+  .about {
+    width: 50%;
+    height: 100vh;
+    font-family: "Droid Serif", sans-serif;
+    color: #b9ac9b;
+    font-size: 1.9912vw;
+    white-space: pre-wrap;
+    line-height: 1.7em;
+    text-align: right;
+    z-index: 120 !important;
+    margin: 0 25%;
+    position: absolute;
+    strong {
+      color: white;
+    }
+  }
+
+  hr {
+    margin: 0;
+    height: 1px;
+    background: rgba(58, 45, 28, 0.74);
+    border: none;
+    position: absolute;
+    z-index: 100 !Important;
+
+  }
+
+  .rotated-left {
+    top: 0;
+    left: 0;
+    width: 1px;
+    height: 75vw;
+    transform: rotate(-74deg);
+    transform-origin: top;
+  }
+  .rotated-right {
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 34.1vw;
+    transform: rotate(52.8deg);
+    transform-origin: top;
+
+  }
+  .rotated-left-1 {
+    bottom: 0;
+    left: 0;
+    width: 1px;
+    height: 34.1vw;
+    transform: rotate(52.8deg);
+    transform-origin: bottom;
+  }
+  .rotated-right-1 {
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    height: 75vw;
+    transform: rotate(-74deg);
+    transform-origin: bottom;
+
+  }
+  .rotated-left-2 {
+    left: 0;
+    top: 100%;
+    width: 1px;
+    height: 75vw;
+    transform: rotate(-74deg);
+    transform-origin: top;
+  }
+  .rotated-right-2 {
+    right: 0;
+    top: 100%;
+    width: 1px;
+    height: 34.1vw;
+    transform: rotate(52.8deg);
+    transform-origin: top;
+  }
+
+  .rotated-vertical-1 {
+    left: 27.2vw;
+    bottom: 20.6vw;
+    width: 1px;
+    height: 54.5vw;
+  }
+  .rotated-vertical-2 {
+    right: 27.3vw;
+    top: 20.6vw;
+    width: 1px;
+    height: 54.5vw;
+  }
+
+  .rotated-vertical-3 {
+    left: 0;
+    top: 0;
+    width: 1px;
+    height: 54.5vw;
+  }
+  .rotated-vertical-4 {
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 54.5vw;
+
+  }
+  .rotated-top-left{
+    left:0;
+    bottom: 100%;
+    height: 34.1vw;
+    width: 1px;
+    transform: rotate(52.8deg);
+    transform-origin: bottom;
+  }
+
+  .rotated-top-right{
+    right:0;
+    bottom: 100%;
+    height: 75vw;
+    width: 1px;
+    transform: rotate(-74deg);
+    transform-origin: bottom;
+  }
+
+  .triangle{
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 71.6vw;
+    border-left-width: 27.3vw;
+    border-bottom: 20.6vw solid rgba(11, 11, 11, 0.1);
+    position: absolute;
+    bottom: 0;
+  }
+
+
+}
+
+
+.footer {
+  width: 100%;
+  min-height: 350px;
+  height: 80vh;
+  background: #1c1c1c;
+  position: relative;
+
+  .triangle{
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-left-width: 71.6vw;
+    border-right-width: 27.3vw;
+    border-bottom: 20.6vw solid rgba(11, 11, 11, 0.1);
+    position: absolute;
+    bottom: 0;
+  }
+
+  .wai {
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    text-align: center;
+    font-family: "Droid Serif", sans-serif;
+    font-size: 13.7906vw;
+    font-weight: bold;
+    opacity: 0.4;
+
+  }
+  .contact {
+
+    width: 50%;
+    height: 50vh;
+    font-family: "Droid Serif", sans-serif;
+    color:#c0a062;
+    font-size: 2.9912vw;
+    line-height: 1.7em;
+    text-align: center;
+    margin: 10% 25% 0;
+  }
+
+  .icons {
+    position: absolute;
+    top: 70%;
+    height: 6.3421vw;
+    width: 60%;
+    left: 20%;
+    text-align: center;
+
+    div {
+      width: 7vw;
+      height: 7vw;
+      border: 1px solid rgba(58, 45, 28, 0.74);
+      display: inline-block;
+      margin: 0 1.4749vw 0;
+      line-height: 7vw;
+
+      a:hover{
+        text-decoration: none;
+      }
+
+    }
+    span {
+      color: rgba(58, 45, 28, 0.74);
+      transition: all 1.5s ease-out 0s;
+
+      &:hover{
+        color: #c0a062;
+        transition: all 1.5s ease-out 0s;
+        cursor: pointer;
+
+      }
+    }
+  }
+  hr {
+    margin: 0;
+    height: 1px;
+    background: rgba(58, 45, 28, 0.74);
+    border: none;
+    position: absolute;
+
+  }
+
+  .rotated-left {
+    bottom: 0;
+    left: 0;
+    width: 1px;
+    height: 75vw;
+    transform: rotate(74deg);
+    transform-origin: bottom;
+  }
+  .rotated-right {
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    height: 34.1vw;
+    transform: rotate(-52.8deg);
+    transform-origin: bottom;
+
+  }
+
+}
+
