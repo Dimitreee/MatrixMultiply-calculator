@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 07/06/2016 04:19
+    Creation date: 08/06/2016 15:27
     */
 
     @font-face {
@@ -36,14 +36,20 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-facebook:before { content: "\f100"; }
-.flaticon-github:before { content: "\f101"; }
-.flaticon-opened:before { content: "\f102"; }
-.flaticon-vk:before { content: "\f103"; }
-.flaticon-whatsapp:before { content: "\f104"; }
+    .flaticon-close:before { content: "\f100"; }
+.flaticon-facebook:before { content: "\f101"; }
+.flaticon-github:before { content: "\f102"; }
+.flaticon-opened:before { content: "\f103"; }
+.flaticon-refresh:before { content: "\f104"; }
+.flaticon-send:before { content: "\f105"; }
+.flaticon-vk:before { content: "\f106"; }
+.flaticon-whatsapp:before { content: "\f107"; }
     
-    $font-Flaticon-facebook: "\f100";
-    $font-Flaticon-github: "\f101";
-    $font-Flaticon-opened: "\f102";
-    $font-Flaticon-vk: "\f103";
-    $font-Flaticon-whatsapp: "\f104";
+    $font-Flaticon-close: "\f100";
+    $font-Flaticon-facebook: "\f101";
+    $font-Flaticon-github: "\f102";
+    $font-Flaticon-opened: "\f103";
+    $font-Flaticon-refresh: "\f104";
+    $font-Flaticon-send: "\f105";
+    $font-Flaticon-vk: "\f106";
+    $font-Flaticon-whatsapp: "\f107";

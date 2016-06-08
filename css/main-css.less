@@ -273,7 +273,7 @@ html, body {
   background: #1c1c1c;
   position: relative;
 
-  .triangle{
+  .triangle {
     width: 0;
     height: 0;
     border: 0 solid transparent;
@@ -300,7 +300,7 @@ html, body {
     width: 50%;
     height: 50vh;
     font-family: "Droid Serif", sans-serif;
-    color:#c0a062;
+    color: #c0a062;
     font-size: 2.9912vw;
     line-height: 1.7em;
     text-align: center;
@@ -323,7 +323,7 @@ html, body {
       margin: 0 1.4749vw 0;
       line-height: 7vw;
 
-      a:hover{
+      a:hover {
         text-decoration: none;
       }
 
@@ -332,7 +332,7 @@ html, body {
       color: rgba(58, 45, 28, 0.74);
       transition: all 1.5s ease-out 0s;
 
-      &:hover{
+      &:hover {
         color: #c0a062;
         transition: all 1.5s ease-out 0s;
         cursor: pointer;
@@ -366,6 +366,99 @@ html, body {
     transform-origin: bottom;
 
   }
+  .feedback {
+    width: 100%;
 
+
+    .form {
+      width: 60%;
+      height: 70vh;
+      position: absolute;
+      top: -60vh;
+      left: 20%;
+      background-color: #1f1f1f;
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      transition: all 0.5s ease-out 0s;
+      border: 1px solid rgba(58, 45, 28, 0.74);
+      border-bottom: none;
+
+      fieldset {
+        width: 90%;
+        height: 200px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 65px 40px 40px 40px;
+        color: white;
+
+        legend {
+          width: 150px;
+          text-align: center;
+          border: none;
+          position: absolute;
+          top: -86px;
+          left: 50%;
+          margin-left: -75px;
+          font-family: "Droid Serif", sans-serif;
+          font-size: 1.9912vw;
+          color: #c0a062;
+        }
+
+        input {
+          width: 100%;
+          height: 50px;
+          background: rgba(11, 11, 11, 0.1);
+          border: none;
+          position: absolute;
+          top: 0px;
+          padding: 10px;
+        }
+        #message {
+          width: 100%;
+          height: 150px;
+          background: rgba(11, 11, 11, 0.1);
+          border: none;
+          position: absolute;
+          top: 80px;
+          padding: 10px;
+          resize: none;
+        }
+      }
+      .icons {
+        position: absolute;
+        top: 70%;
+        height: 6.3421vw;
+        width: 60%;
+        left: 20%;
+        text-align: center;
+
+        div {
+          width: 7vw;
+          height: 7vw;
+          border: 1px solid rgba(58, 45, 28, 0.74);
+          display: inline-block;
+          margin: 0 1.4749vw 0;
+          line-height: 7vw;
+
+          a:hover {
+            text-decoration: none;
+          }
+
+        }
+        span {
+          color: rgba(58, 45, 28, 0.74);
+          transition: all 1.5s ease-out 0s;
+
+          &:hover {
+            color: #c0a062;
+            transition: all 1.5s ease-out 0s;
+            cursor: pointer;
+
+          }
+        }
+      }
+
+    }
+  }
 }
-
