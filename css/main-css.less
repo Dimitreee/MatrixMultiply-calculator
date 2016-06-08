@@ -327,6 +327,7 @@ html, body {
         text-decoration: none;
       }
 
+
     }
     span {
       color: rgba(58, 45, 28, 0.74);
@@ -382,6 +383,7 @@ html, body {
       border: 1px solid rgba(58, 45, 28, 0.74);
       border-bottom: none;
 
+
       fieldset {
         width: 90%;
         height: 200px;
@@ -405,7 +407,7 @@ html, body {
         }
 
         input {
-          width: 100%;
+          width: 93%;
           height: 50px;
           background: rgba(11, 11, 11, 0.1);
           border: none;
@@ -414,7 +416,7 @@ html, body {
           padding: 10px;
         }
         #message {
-          width: 100%;
+          width: 93%;
           height: 150px;
           background: rgba(11, 11, 11, 0.1);
           border: none;
@@ -423,40 +425,32 @@ html, body {
           padding: 10px;
           resize: none;
         }
-      }
-      .icons {
-        position: absolute;
-        top: 70%;
-        height: 6.3421vw;
-        width: 60%;
-        left: 20%;
-        text-align: center;
 
-        div {
-          width: 7vw;
-          height: 7vw;
-          display: inline-block;
-          margin: 0 1.4749vw 0;
-          line-height: 7vw;
-
-          a:hover {
-            text-decoration: none;
-          }
-
+        .refreshIcon{
+          position: absolute;
         }
-        span {
-          color: rgba(58, 45, 28, 0.74);
-          transition: all 1.5s ease-out 0s;
 
-          &:hover {
-            color: #c0a062;
-            transition: all 1.5s ease-out 0s;
-            cursor: pointer;
-
-          }
+        .first{
+          top: -2px;
+          right: 0;
+        }
+        .second{
+          top: 63%;
+          right: 0;
         }
       }
 
     }
+
+    .unBorderedIcon{
+      border: none;
+
+      [class^="little-icon"]::before, [class*=" little-icon"]::before, [class^="little-icon"]::after, [class*=" little-icon"]::after {
+        font-size: 2.3vw !important;
+        font-style: normal;
+      }
+
+    }
+
   }
 }
