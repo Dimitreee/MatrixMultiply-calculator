@@ -431,15 +431,25 @@ html, body {
         }
 
         .first{
-          top: -2px;
+          top: 2px;
           right: 0;
         }
         .second{
           top: 63%;
           right: 0;
         }
-      }
+        span {
+          color: rgba(58, 45, 28, 0.74);
+          transition: all 1.5s ease-out 0s;
 
+          &:hover {
+            color: #c0a062;
+            transition: all 1.5s ease-out 0s;
+            cursor: pointer;
+
+          }
+        }
+      }
     }
 
     .unBorderedIcon{
@@ -452,5 +462,20 @@ html, body {
 
     }
 
+    .icons{
+      width: 100%;
+      left: auto;
+
+      .unBorderedIcon{
+        border: none;
+
+
+        [class^="little-icon"]::before, [class*=" little-icon"]::before, [class^="little-icon"]::after, [class*=" little-icon"]::after {
+          font-size: 2.4vw !important;
+          font-style: normal;
+        }
+      }
+
+    }
   }
 }
