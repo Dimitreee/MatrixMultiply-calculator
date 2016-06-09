@@ -272,6 +272,7 @@ html, body {
   height: 80vh;
   background: #1c1c1c;
   position: relative;
+  overflow: hidden;
 
   .triangle {
     width: 0;
@@ -367,14 +368,11 @@ html, body {
     transform-origin: bottom;
 
   }
-  .feedback {
-    width: 100%;
-
     .form {
       width: 60%;
       height: 70vh;
       position: absolute;
-      top: -60vh;
+      top: 80px;
       left: 20%;
       background-color: #1f1f1f;
       font-family: Roboto, Helvetica, Arial, sans-serif;
@@ -407,7 +405,7 @@ html, body {
         }
 
         input {
-          width: 93%;
+          width: 100%;
           height: 50px;
           background: rgba(11, 11, 11, 0.1);
           border: none;
@@ -416,7 +414,7 @@ html, body {
           padding: 10px;
         }
         #message {
-          width: 93%;
+          width: 100%;
           height: 150px;
           background: rgba(11, 11, 11, 0.1);
           border: none;
@@ -425,57 +423,14 @@ html, body {
           padding: 10px;
           resize: none;
         }
-
-        .refreshIcon{
-          position: absolute;
-        }
-
-        .first{
-          top: 2px;
-          right: 0;
-        }
-        .second{
-          top: 63%;
-          right: 0;
-        }
-        span {
-          color: rgba(58, 45, 28, 0.74);
-          transition: all 1.5s ease-out 0s;
-
-          &:hover {
-            color: #c0a062;
-            transition: all 1.5s ease-out 0s;
-            cursor: pointer;
-
-          }
-        }
       }
-    }
-
-    .unBorderedIcon{
-      border: none;
-
-      [class^="little-icon"]::before, [class*=" little-icon"]::before, [class^="little-icon"]::after, [class*=" little-icon"]::after {
-        font-size: 2.3vw !important;
-        font-style: normal;
-      }
-
-    }
-
-    .icons{
-      width: 100%;
-      left: auto;
-
       .unBorderedIcon{
         border: none;
 
-
         [class^="little-icon"]::before, [class*=" little-icon"]::before, [class^="little-icon"]::after, [class*=" little-icon"]::after {
-          font-size: 2.4vw !important;
+          font-size: 2.3vw !important;
           font-style: normal;
         }
       }
-
     }
   }
-}
